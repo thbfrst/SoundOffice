@@ -1,5 +1,18 @@
 <style>
-body { background: #343333;}
+body { background: #b6b4ff;
+  overflow: hidden;
+
+}
+
+
+.flexb {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+
 .player {
     margin-top: 140px;
     margin-bottom: 182px;
@@ -23,7 +36,7 @@ body { background: #343333;}
   position: absolute;
   top: 78px;
   left: 169px;
-    animation: mymove 6s infinite;
+    animation: mymove 4s infinite;
 
   }
 
@@ -34,11 +47,12 @@ body { background: #343333;}
 }
 
 .frame {
-  width: 337px;
-  height: 232px;
-  position: absolute;
-  top: 21px;
-  left: -33px;
+      width: 337px;
+    height: 313px;
+    position: absolute;
+    top: -30px;
+    left: -39px;
+
 }
 
 
@@ -49,31 +63,51 @@ body { background: #343333;}
     display: -webkit-flex; /* Safari */
     display: flex; /* Standard syntax */
     justify-content: space-between;
+    padding-top: 80px;
+}
+
+
+.contact {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 200px;
 }
 
 </style>
 
-<div class="flex-container">
-  <!-- wp:image {"id":537,"width":620,"height":652,"sizeSlug":"large","linkDestination":"none"} -->
-  <figure class="wp-block-image size-large is-resized"><img src="http://thesoundoffice.org/wp-content/uploads/2021/03/test1-1-973x1024.png" alt="" class="wp-image-537" width="434" height="456"/></figure>
-  <!-- /wp:image -->
 
-  <div class="player">
-    <!--<div class="inner"></div>-->
-  <p><iframe id="embed_player" frameborder="0" width="290" height="240" src="https://thesoundoffice.airtime.pro/embed/player?stream=auto&amp;skin=1"></iframe></p>
-   <img
-    src="rockR.svg"
-    class="inner"
-    alt="rocki"
-   />
-    <img
-    src="rockRJ1.svg"
-    class="inner2"
-    alt="rocki"
-   />
-   <img
-    src="cadre.png"
-    class="frame"
-    alt="frame">
+
+
+<div class="flexb">
+  <div class="flex-container">
+    <!-- wp:image {"id":537,"width":620,"height":652,"sizeSlug":"large","linkDestination":"none"} -->
+    <figure class="wp-block-image size-large is-resized"><img src="http://thesoundoffice.org/wp-content/uploads/2021/03/test1-1-973x1024.png" alt="" class="wp-image-537" width="434" height="456"/></figure>
+    <!-- /wp:image -->
+
+      <div class="player">
+        <!--<div class="inner"></div>-->
+      <p><iframe id="embed_player" frameborder="0" width="290" height="240" src="https://thesoundoffice.airtime.pro/embed/player?stream=auto&amp;skin=1"></iframe></p>
+       <img
+        src="rockR.svg"
+        class="inner"
+        alt="rocki"
+       />
+        <img
+        src="rockRJ1.svg"
+        class="inner2"
+        alt="rocki"
+       />
+       <img
+        src="cadre3b.png"
+        class="frame"
+        alt="frame">
+      </div>
   </div>
+      <div class="contact">
+        <a href = "mailto: info@thesoundoffice.org"><img class="contactimage"
+              src="contact.svg"></a>
+
+      </div>
 </div>
+
