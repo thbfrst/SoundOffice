@@ -1,12 +1,79 @@
 <style>
-body { background: grey;}
-.player { background: red; height:340; width: 340; border-radius: 100%}
+body { background: #343333;}
+.player {
+    margin-top: 140px;
+    margin-bottom: 182px;
+    margin-right: 20px;
+   position: relative;
+}
+
+.inner {
+  height: 50px;
+  width: 50px;
+  margin: auto;
+  position: absolute;
+    top: 78px;
+  left: 169px;
+  }
+
+  .inner2 {
+  height: 50px;
+  width: 50px;
+  margin: auto;
+  position: absolute;
+  top: 78px;
+  left: 169px;
+    animation: mymove 6s infinite;
+
+  }
+
+@keyframes mymove {
+ 0% {opacity: 100%;}
+ 50% {opacity: 20%;}
+ 100% {opacity: 100%;}
+}
+
+.frame {
+  width: 337px;
+  height: 232px;
+  position: absolute;
+  top: 21px;
+  left: -33px;
+}
+
+
+.flex-container{
+    width: 80%;
+    min-height: 300px;
+    margin: 0 auto;
+    display: -webkit-flex; /* Safari */
+    display: flex; /* Standard syntax */
+    justify-content: space-between;
+}
+
 </style>
 
-<!-- wp:image {"id":537,"width":620,"height":652,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large is-resized"><img src="http://thesoundoffice.org/wp-content/uploads/2021/03/test1-1-973x1024.png" alt="" class="wp-image-537" width="434" height="456"/></figure>
-<!-- /wp:image -->
+<div class="flex-container">
+  <!-- wp:image {"id":537,"width":620,"height":652,"sizeSlug":"large","linkDestination":"none"} -->
+  <figure class="wp-block-image size-large is-resized"><img src="http://thesoundoffice.org/wp-content/uploads/2021/03/test1-1-973x1024.png" alt="" class="wp-image-537" width="434" height="456"/></figure>
+  <!-- /wp:image -->
 
-<div class="player">
-<p><iframe id="embed_player" frameborder="0" width="290" height="240" src="https://thesoundoffice.airtime.pro/embed/player?stream=auto&amp;skin=1"></iframe></p>
+  <div class="player">
+    <!--<div class="inner"></div>-->
+  <p><iframe id="embed_player" frameborder="0" width="290" height="240" src="https://thesoundoffice.airtime.pro/embed/player?stream=auto&amp;skin=1"></iframe></p>
+   <img
+    src="rockR.svg"
+    class="inner"
+    alt="rocki"
+   />
+    <img
+    src="rockRJ1.svg"
+    class="inner2"
+    alt="rocki"
+   />
+   <img
+    src="cadre.png"
+    class="frame"
+    alt="frame">
+  </div>
 </div>
