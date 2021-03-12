@@ -1,0 +1,123 @@
+
+
+body { background: #99afff;
+  overflow: hidden;
+}
+
+
+.flexb {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+.logo {
+  height: 460px;
+  margin-left: 50px;
+}
+
+.player {
+    margin-top: 207px;
+    margin-top: 207px;
+    margin-bottom: 182px;
+    margin-right: 20px;
+    margin-left: 50px;
+    position: relative;
+
+}
+
+.inner {
+
+      height: 307px;
+    width: 147px;
+    margin: auto;
+    position: absolute;
+    top: -111px;
+    left: 138px;
+  }
+
+  .innerr {
+
+      height: 307px;
+    width: 157px;
+    margin: auto;
+    position: absolute;
+    top: 4px;
+    left: 130px;
+  }
+
+  .inner2 {
+
+      height: 307px;
+    width: 147px;
+    margin: auto;
+    position: absolute;
+    top: -111px;
+    left: 138px;
+    animation: mymove 4s infinite;
+  }
+
+@keyframes mymove {
+ 0% {opacity: 100%;}
+ 50% {opacity: 20%;}
+ 100% {opacity: 100%;}
+}
+
+.frame {
+        width: 400px;
+    height: 320px;
+    position: absolute;
+    top: -41px;
+    left: -70px;
+         z-index: 99;
+
+}
+
+
+.flex-container{
+    width: 80%;
+    min-height: 300px;
+    margin: 0 auto;
+    display: -webkit-flex; /* Safari */
+    display: flex; /* Standard syntax */
+    justify-content: space-between;
+    padding-top: 80px;
+}
+
+
+.contact {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 200px;
+  padding-top: 15px;
+  padding-right: 7px;
+}
+
+
+@media only screen and (max-width: 400px) {
+  .flexb {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  background: red;
+}
+
+.logo {
+  width: 100%;
+}
+
+body {
+  background: #99afff;
+  overflow: hidden;
+  overflow: auto;
+}
+
+.frame {
+  display: none;
+}
+
+
+}
