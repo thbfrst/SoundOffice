@@ -110,7 +110,6 @@ body { background: #99afff;
     display: flex;
     flex-direction: column;
      background: #99afff;
-    overflow: hidden;
 }
 
 
@@ -122,6 +121,7 @@ body { background: #99afff;
 
     display: -webkit-flex; /* Safari */
     display: flex; /* Standard syntax */
+    margin-bottom: -45px;
 }
 
 
