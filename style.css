@@ -174,27 +174,8 @@ body { background: #99afff;
 
 
 
-.solo2 {
-     display: block;
-    position: absolute;
-    right: -93px;
-    top: 88px;
-}
-
-}
 
 
-.glow {
-  width: 313px;
-      animation: mymove2 5s infinite;
-  }
-
-@keyframes mymove2 {
- 0% {opacity: 100%;}
- 50% {opacity: 20%;}
- 100% {opacity: 100%;}
-}
-}
 
 }
 
