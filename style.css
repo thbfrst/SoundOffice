@@ -14,16 +14,24 @@ body { background: #99afff;
 
 
 .logo {
-  height: 460px;
-  margin-left: 50px;
+  height: 240px;
+  position: absolute;
+     top:0;
+     left:0;
+     margin-left: 50px;
+     margin-top: 100px;
 }
 
 .player {
-        margin-top: -276px;
-    margin-bottom: -252px;
-    margin-right: -80px;
-    margin-left: 840px;
-    position: relative;
+          font: 0.7em "Andale Mono";
+    text-align: left;
+    position: absolute;
+     top:0;
+     right:0;
+     margin-right: 50px;
+     margin-top: 150px;
+     margin-left: 400px;
+
 
 }
 
@@ -32,7 +40,7 @@ body { background: #99afff;
       height: 307px;
     width: 147px;
     margin: auto;
-    position: absolute;
+    position: relative;
     top: -111px;
     left: 138px;
   }
@@ -42,7 +50,7 @@ body { background: #99afff;
       height: 307px;
     width: 157px;
     margin: auto;
-    position: absolute;
+    position: relative;
     top: 4px;
     left: 130px;
   }
@@ -52,7 +60,7 @@ body { background: #99afff;
       height: 307px;
     width: 147px;
     margin: auto;
-    position: absolute;
+    position: relative;
     top: -111px;
     left: 138px;
     animation: mymove 4s infinite;
@@ -86,13 +94,13 @@ body { background: #99afff;
 }
 
 
-.contact {
+.listen {
+  width: 140px;
   position: absolute;
-  right: 0;
-  top: 0;
-  width: 200px;
-  padding-top: 15px;
-  padding-right: 7px;
+     top:0;
+     right:0;
+     margin-right: 20px;
+     margin-top: 20px;
 }
 
 
