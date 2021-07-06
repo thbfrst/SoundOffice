@@ -104,6 +104,19 @@ body { background: #99afff;
 }
 
 
+
+.contact {
+  width: 140px;
+    position: absolute;
+     top:0;
+     right:0;
+     margin-right: 90px;
+     margin-top: 90px;
+}
+
+
+
+
 .solo2 {
   display: none;
 }
@@ -118,6 +131,7 @@ body { background: #99afff;
     display: flex;
     flex-direction: column;
      background: #99afff;
+     overflow: scroll;
 }
 
 
@@ -134,26 +148,34 @@ body { background: #99afff;
 
 
 
+.player {
+          font: 0.7em "Andale Mono";
+    text-align: left;
+    position: absolute;
+     top:10;
+     margin-top: 150px;
+     margin-left: 10px;
+     margin-right: 10px;
+          overflow: scroll;
+
+
+}
+
+
+
 .logo {
   display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 310px;
-    height: 340px;
+    width: 88px;
+    height: 88px;
     margin-left: -121px;
+    margin-top: 10px;
 
 }
 
 
-.player {
-    width:20vw;
-   height:35vh;
-   width: auto;
-   height: auto;
-   margin: auto;
-   margin-top: 40px;
-   text-align: center;
-}
+
 
 .inner {
   display: none;
